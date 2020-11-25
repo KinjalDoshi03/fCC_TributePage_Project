@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Tribute Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+        body {
+            max-width: 75%;
+            margin: 0 auto;
+            background-color: whitesmoke;
+        }
+
+
+        h1 {
+            text-align: center;
+            font-family: 'Secular One', sans-serif;
+        }
+
+        h2 {
+            font-family: 'Roboto Slab', serif;
+        }
+
+        #image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60vw;
+            border: transparent;
+            border-radius: 1rem;
+            box-shadow: 0 4px 14px rgba(33, 33, 33, 0.5);
+        }
+
+
+        #img-caption {
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            padding-top: 1%;
+
+        }
+
+        #tribute-info {
+            font-family: 'Roboto Slab', serif;
+            font-size: large;
+            text-align: justify;
+        }
+
+        .image1 {
+            height: 334px;
+            width: 500px;
+            border: transparent;
+            border-radius: 1rem;
+            box-shadow: 0 4px 14px rgba(33, 33, 33, 0.5);
+        }
+
+        #img-caption1 {
+            text-align: right;
+            font-family: 'Lato', sans-serif;
+            padding-top: 1%;
+        }
+
+        #align {
+            float: right;
+        }
+
+        .table1 {
+            width: 100%;
+            border: 2px solid black;
+            border-collapse: collapse;
+            font-family: 'Libre Franklin', sans-serif;
+            box-shadow: 0 4px 14px rgba(33, 33, 33, 0.5);
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        th {
+            background-color: black;
+            color: snow;
+            padding: 5px;
+        }
+
+        /* .class1 {
+            background-color: silver;
+        }
+
+        .class2 {
+            background-color: whitesmoke;
+        } */
+
+        tr:nth-of-type(2n) {
+            background-color: silver;
+        }
+
+        tr:nth-of-type(2n + 1) {
+            background-color: whitesmoke;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: 'Secular One', sans-serif;
+        }
+
+        #tribute-link {
+            text-align: right;
+            font-family: 'Roboto Slab', serif;
+            font-size: large;
+        }
+
+        .achievements-list {
+            font-family: 'Roboto Slab', serif;
+            font-size: large;
+            text-align: justify;
+            padding-right: 4rem;
+            padding-left: 4rem;
+        }
+
+        .quote {
+            font-family: 'Niconne', cursive;
+            font-size: 3rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body id="main">
+    <header>
+        <h1 id="title">A. P. J. Abdul Kalam</h1>
+    </header>
+    <main>
+
+        <section>
+            <div id="img-div">
+                <figure>
+                    <img id="image" src="images/Abdul_kalam.jpeg" alt="A. P. J. Abdul Kalam">
+                    <figcaption id="img-caption">
+                        Avul Pakir Jainulabdeen Abdul Kalam, an Indian aerospace scientist and Former President of
+                        India.
+                    </figcaption>
+
+                </figure>
+            </div>
+            <p id="tribute-info">Avul Pakir Jainulabdeen Abdul Kalam was born on 15 October, 1931 to a Tamil-Muslim
+                family. His father,
+                Jainulabdeen, was a boat owner and imam of a local mosque and his mother Ashiamma, was a housewife.
+                Kalam
+                was the youngest of four brothers and one sister in his family. Kalam's family was poor and so, at an
+                early
+                age, he sold newspapers to supplement his family's income.</p>
+        </section>
+
+        <hr>
+        <section>
+            <figure id="align">
+                <img class="image1" src="images/manmohansinghandputin.jpeg" alt="Abdul Kalam">
+                <figcaption id="img-caption1">
+                    Kalam along with Vladimir Putin and Manmohan Singh during his presidency.
+                </figcaption>
+            </figure>
+            <h2>Presidency</h2>
+            <p id="tribute-info">Kalam served as the 11th President of India, succeeding K. R. Narayanan. He won the
+                2002 presidential
+                election with an electoral vote of 922,884, surpassing the 107,366 votes won by Lakshmi Sahgal. His term
+                lasted from 25 July 2002 to 25 July 2007.</p>
+            <p id="tribute-info">Kalam was the third President of India to have been honoured with a Bharat Ratna,
+                India's highest
+                civilian honour, before becoming the President. He was also the first scientist and the first bachelor
+                to occupy Rashtrapati Bhawan.
+            <p id="tribute-info">During his term as president, he was affectionately known as the People's President,
+                saying
+                that signing the Office of Profit Bill was the toughest decision he had taken during his
+                tenure. Kalam was criticised for his inaction in deciding the fate of 20 out of the 21 mercy
+                petitions submitted to him during his tenure. Article 72 of the Constitution of India empowers the
+                President of India to grant pardons, and suspend or commute the death sentence of convicts on death
+                row. Kalam acted on only one mercy plea in his five-year tenure as president, rejecting the plea
+                of rapist Dhananjoy Chatterjee, who was later hanged. Perhaps the most notable plea was from Afzal
+                Guru, a Kashmiri terrorist who was convicted of conspiracy in the December 2001 attack on the Indian
+                Parliament and was sentenced to death by the Supreme Court of India in 2004.</p>
+            <p id="tribute-info">At the end of his term, on 20 June 2007, Kalam expressed his willingness to consider a
+                second term in
+                office provided there was certainty about his victory in the 2007 presidential election. However,
+                two days later, he decided not to contest the Presidential election again stating that he wanted to
+                avoid involving Rashtrapati Bhavan from any political processes.</p>
+            <hr>
+        </section>
+        <section>
+            <h2>Achievements</h2>
+            <p id="tribute-info">Abdul Kalam will remain one of the finest human beings to have ever lived and his
+                legacy will continue to
+                inspire people around the world in the coming years. The following timeline highlights his numerous
+                achievements.
+            <ul class="achievements-list">
+                <li>After he was transferred to the Indian Space Research Organization (ISRO), Mr Kalam worked as the
+                    project director for
+                    SLV-III, India’s first indigenous satellite launch vehicle.</li>
+                <li>SLV-III successfully launched satellite Rohini to orbit on July 1980. From then, Mr Kalam expanded
+                    India’s space
+                    programme.</li>
+                <li>In the 1980s he led India’s missile programme. Under his leadership, India became a major military
+                    power after the
+                    successes of Agni and Prithvi.</li>
+                <li>He was the Chief Scientific Adviser to the Prime Minister and the Secretary of Defence Research and
+                    Development
+                    Organisation from July 1992 to December 1999.</li>
+                <li>In 1998, along with cardiologist Dr.Soma Raju, Kalam developed a low cost Coronary stent. It was
+                    named as “Kalam-Raju
+                    Stent” honouring them. In 2012, the duo designed a rugged tablet PC for health care in rural areas,
+                    which was named as
+                    “Kalam-Raju Tablet”.</li>
+            </ul>
+            </p>
+            <hr>
+        </section>
+        <section>
+            <h2>Awards and Honours</h2>
+            <table border="2" class="table1">
+                <tr class="class2">
+                    <th>Year</th>
+                    <th>Name of Award or Honour</th>
+                    <th>Awarding Organisation</th>
+                </tr>
+                <tr class="class1">
+                    <td>1981</td>
+                    <td>Padma Bhushan</td>
+                    <td>Government of India</td>
+                </tr>
+                <tr class="class2">
+                    <td>1990</td>
+                    <td>Padma Vibhushan</td>
+                    <td>Government of India</td>
+                </tr>
+                <tr class="class1">
+                    <td>1994</td>
+                    <td>Distinguished Fellow</td>
+                    <td>Institute of Directors (India)</td>
+                </tr>
+                <tr class="class2">
+                    <td>1997</td>
+                    <td>Bharat Ratna</td>
+                    <td>Government of India</td>
+                </tr>
+                <tr class="class1">
+                    <td>1997</td>
+                    <td>Indira Gandhi Award for National Integration</td>
+                    <td>Indian National Congress</td>
+                </tr>
+                <tr class="class2">
+                    <td>1998</td>
+                    <td>Veer Savarkar Award</td>
+                    <td>Government of India</td>
+                </tr>
+                <tr class="class1">
+                    <td>2000</td>
+                    <td>Ramanujan Award</td>
+                    <td>Alwars Research Centre, Chennai</td>
+                </tr>
+                <tr class="class2">
+                    <td>2007</td>
+                    <td>Honorary Doctorate of Science</td>
+                    <td>University of Wolverhampton, UK</td>
+                </tr>
+                <tr class="class1">
+                    <td>2007</td>
+                    <td>King Charles II Medal</td>
+                    <td>Royal Society, UK</td>
+                </tr>
+                <tr class="class2">
+                    <td>2008</td>
+                    <td>Doctorate of Engineering (Honoris Causa)</td>
+                    <td>Nanyand Technological Unviersity, Singapore</td>
+                </tr>
+                <tr class="class1">
+                    <td>2009</td>
+                    <td>International von Karman Wings Award</td>
+                    <td>California Institute of Technology, USA</td>
+                </tr>
+                <tr class="class2">
+                    <td>2009</td>
+                    <td>Hoover Medal</td>
+                    <td>ASME Foundation, USA</td>
+                </tr>
+                <tr class="class1">
+                    <td>2009</td>
+                    <td>Honorary Doctorate</td>
+                    <td>Oakland University</td>
+                </tr>
+                <tr class="class2">
+                    <td>2010</td>
+                    <td>Doctor of Engineering</td>
+                    <td>University of Waterloo</td>
+                </tr>
+                <tr class="class1">
+                    <td>2011</td>
+                    <td>IEEE Honorary Membership</td>
+                    <td>IEEE</td>
+                </tr>
+                <tr class="class2">
+                    <td>2012</td>
+                    <td>Doctor of Laws (Honoris Causa)</td>
+                    <td>Simon Fraser University</td>
+                </tr>
+                <tr class="class1">
+                    <td>2014</td>
+                    <td>Doctor of Science</td>
+                    <td>Edinburgh University, UK</td>
+                </tr>
+
+            </table>
+            <p id="tribute-link">For more information, <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
+                    target="_blank">click
+                    here</a>.</p>
+        </section>
+        <section>
+            <p class="quote">
+                "If you want to shine like a sun, first burn like a sun."
+            </p>
+            <hr>
+        </section>
+
+    </main>
+    <footer>
+        © A. P. J. Abdul Kalam 2020
+    </footer>
+
+</body>
+
+</html>
